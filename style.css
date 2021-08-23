@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.glass{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.glass img{
+    height: 400px;
+}
+.content{
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000000;
+}
+.content h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.description-content{
+    max-width: 800px;
+    margin: 40px auto 20px ;
+}
+.description-content p{
+    text-align: justify;
+}
+.description-content .floating-image{
+    max-width: 400px;
+}
+.description-content .floating-image.left{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.description-content .floating-image.right{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
