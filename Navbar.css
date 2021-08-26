@@ -1,34 +1,180 @@
 body {
-    font-size: 28px;
-  }
+
+    font-family: 'Righteous', cursive;
+    background-image: url(Images/fx_background_zoom-90s-pattern_moz-memphis2.png);
+    background-color: #630d49;
+   
   
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+}
+
+.Nvbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 136, 0);
+}
+
+.Nvbar li {
+  float: left;
+}
+
+.Nvbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(168, 4, 127);
+}
+
+.Rbutton {
+        float: right;
+
+}
+
+
+.KImage {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+    margin-top: -17%;
+    position:relative;
+    
+    
+}
+
+.maintxt {
+        font-size: 1000%;
+        margin-top: +2%;
+        margin-left: 2%;
+        position:absolute;
+        color: aliceblue;
+}
+ .button1 {
+    
+ 
+
+ }
+
+ .button2 {
+
+     margin-top: -10%;  
+     
+       
+
   
-  li a:hover {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #4CAF50;
-  }
+}
+
+.fontC {
+        color: #fde34d;
+
+
+
+}
+
+.carstxt {
+      margin-top: -50%;
+      font-size: 700%;
+      color: aliceblue;
+
+}
+
+.Fasiontxt {
+      margin-top: -6%;
+      font-size: 700%; 
+      text-align: right;
+      color: aliceblue;
+
+
+}
+
+.txtbox {
+  width: 20%;
+  margin: 0.1%;
+  font-size: 150%;
+  color: rgb(255, 123, 0);
+
+
+}
+
+.txtbox2 {
+  margin-left: 80%;
+  margin-bottom: 5%;
+  width: 20%;
+  font-size: 150%;
+  color: rgb(255, 123, 0);
+  text-align: right;
+
+
+}
+
+
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.copyright-text {
+  margin: 1%;
+}
+
+.ftxt {
+    margin: 1%;
+
+
+
+
+
+}
+.antxt {
+      margin: 100%;
+
+
+
+}
